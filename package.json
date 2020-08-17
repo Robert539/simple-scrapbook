@@ -2,8 +2,8 @@
   "name": "simple-scrapbook",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/djunior97/simple-scrapbook.git",
-  "author": "dirceuAntunes <dirceu.antunes@garupa.co>",
+  "repository": "https://github.com/Robert539/simple-scrapbook",
+  "author": "robertMeurer <dirceu.antunes@garupa.co>",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
@@ -15,7 +15,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "axios": "^0.19.2",

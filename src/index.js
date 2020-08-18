@@ -116,7 +116,7 @@ class TaskList {
       message,
     });
 
-    this.scraps[scrapIndex] = { scrapId, title, message };
+    this.scraps[scrapIndex] = { id: scrapId, title, message };
     this.renderScraps();
     $("#editModal").modal("hide");
   }
